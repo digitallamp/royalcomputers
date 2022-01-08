@@ -1,0 +1,87 @@
+.single-gallery-image {
+    margin-top: 30px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px 1px #cccccca8;
+    padding: 16px;
+    background: #fff;
+    padding-bottom: 16px;
+    margin-bottom: 25px;
+}
+#clients img{padding:0px 20px;}
+#client2 .owl-prev{float: left;
+    position: absolute;background-image:url(prew.png);    background-position: center center;
+    background-size: contain;
+    z-index: 999;
+    left: -85px;
+    top: 150px;
+    background-color: #e30208;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff0;
+    line-height: 40px;}
+#clients .owl-prev{float: left;
+    position: absolute;background-image:url(prew.png);    background-position: center center;
+    background-size: contain;
+    z-index: 999;
+    left: -85px;
+    top: 30px;
+    background-color: #e30208;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff0;
+    line-height: 40px;}
+#client2 .owl-next{float: left;
+    position: absolute;
+    z-index: 999;background-image:url(next.png);    background-position: center center;
+    background-size: contain;
+    right: -85px;
+    top: 150px;
+    background-color: #e30208;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff0;
+    line-height: 40px;}
+#clients .owl-next{float: left;background-image:url(next.png);    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    z-index: 999;
+    right: -85px;
+    top: 30px;
+    background-color: #e30208;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff0;
+    line-height: 40px;}
+	.section-title::after, .about-section-title::after, .section-title-two::after{display:none !important;}
+	.faq-style-wrap .panel-title a::before{display:none;}
+	.faq-style-wrap .panel-title .button-faq .fa{top: 15px;
+    line-height: 2.5;
+    color: #fff;
+    text-align: center;
+    display: block;}
+	.faq-style-wrap .panel-title .button-faq::after {
+    border-top: 0px solid #e00c05;
+    border-left: 0px solid #fff;
+    border-right: 0px solid #fff;
+}
+.faq-style-wrap .panel-title .button-faq::before {
+    border-bottom: 0px solid #e00c05;
+    border-left: 0px solid #fff;
+    border-right: 0px solid #fff;
+}
+.faq-style-wrap .panel-title a {
+    margin-bottom: 0px;
+    position: relative;
+    padding: 16px 0px 16px 60px;
+    background: #fff;
+    font-size: 14px;
+    width: 100%;
+}
